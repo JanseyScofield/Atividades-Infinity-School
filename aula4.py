@@ -31,5 +31,15 @@
 
 # 1. Crie um programa que imprima os números pares de 2 a 10.
 
-for i in range (0,11,2):
-    print(i)
+# for i in range (0,11,2):
+#     print(i)
+
+
+# Utilize um loop for para calcular o produto dos números de 1
+# a 5.
+
+produto = 1
+
+for i in range(1,6):
+    produto *= i
+print(produto)
