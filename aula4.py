@@ -1,3 +1,5 @@
+# Utilizada também para estudar Git.
+
 # Faça um programa, utilizando while, que permita o usuário fazer
 # contas de adição enquanto quiser.
 # Exercício de revisão
