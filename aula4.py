@@ -40,8 +40,29 @@
 # Utilize um loop for para calcular o produto dos números de 1
 # a 5.
 
-produto = 1
+# produto = 1
 
-for i in range(1,6):
-    produto *= i
-print(produto)
+# for i in range(1,6):
+#     produto *= i
+# print(produto)
+
+# Crie uma programa que solicite 10 números para o usuário.
+# O programa deve somar todos os números múltiplos de 6
+# digitados. Se a soma for igual ou maior que 30, o programa
+# dever parar e mostrar o resultado da soma.
+
+# soma = 0
+
+# for vezes in range (10):
+#     num = int(input("Digite um número: "))
+#     if num % 6 == 0:
+#         soma += num
+#     if soma >= 30:
+#         break
+# print(f"O resultado da soma dos número: {soma}.")
+
+# Utilize um loop for para imprimir os números de 1 a 20,
+# pulando os múltiplos de 3.
+
+for i in range (1,21, 3):
+     print(i)
