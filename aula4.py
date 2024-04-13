@@ -21,10 +21,15 @@
 #     if letra in 'aeiou' or letra in 'AEIOU':
 #         print(letra)
 
-soma = 0 
+# soma = 0 
 
-for i in range(5):
-    num = float(input("Digite um número: "))
-    soma += num
+# for i in range(5):
+#     num = float(input("Digite um número: "))
+#     soma += num
 
-print(soma)
+# print(soma)
+
+# 1. Crie um programa que imprima os números pares de 2 a 10.
+
+for i in range (0,11,2):
+    print(i)
