@@ -1,5 +1,4 @@
-# Faça um programa que peça 5 números e mostre o
-# maior entre eles.
+# Faça um programa que peça 5 números e mostre o maior entre eles.
 
 numMaior = 0
 for i in range(0,5):
