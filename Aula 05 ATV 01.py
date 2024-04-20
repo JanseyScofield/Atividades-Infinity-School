@@ -35,3 +35,18 @@
 # else:
 #     print("Este triângulo é isóceles.")
 
+#4 - Faça um programa que pergunte ao usuário a temperatura em Celsius e o converta para Fahrenheit ou vice-versa, dependendo da escolha do usuário. A fórmula para conversão é:
+# Celsius para Fahrenheit: Fahrenheit = (Celsius * 9/5) + 32
+# Fahrenheit para Celsius: Celsius = (Fahrenheit - 32) * 5/9
+
+unidade = input("A temperatura está em que unidade? ").lower()
+
+match unidade:
+    case "fahrenheit":
+        valor = float(input("Digite o valor em Fahrenheit: "))
+        valorConvertido = (valor - 32) * 5/9
+    case "celsius":
+        valor = float(input("Digite o valor em Celsius: "))
+        valorConvertido = (valor*9/5) + 32
+
+print(f"O valor convertido é {valorConvertido}")
