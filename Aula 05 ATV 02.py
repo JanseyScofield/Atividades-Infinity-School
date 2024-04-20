@@ -1,5 +1,4 @@
-# Faça um programa que receba uma palavra e mostre
-# somente as vogais.
+# Faça um programa que receba uma palavra e mostre somente as vogais.
 
 palavra = input("Digite uma palavra: ")
 vogais = "aeiouAEIOU"
